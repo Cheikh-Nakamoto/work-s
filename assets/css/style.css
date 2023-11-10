@@ -14,7 +14,7 @@ body{
 
 header{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border: 1px solid blue;
     height: 7vh;
@@ -38,14 +38,19 @@ header{
 }
 
 .user input{
-    margin: 12px;
+    margin: 12px 0;
     border-radius: 12px;
     width: 75%;
     height: 30px;
     outline: none;
 }
 
-.user bu
+.user .btn{
+    width: 20%;
+    padding: 8px;
+    border-radius: 12px;
+    
+}
 
 
 
@@ -60,6 +65,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 12px;
     border: 1px solid blue;
     height: 7vh;
     position: sticky;
