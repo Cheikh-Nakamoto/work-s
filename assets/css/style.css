@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
-
-
 header{
     display: flex;
+    border: 1px solid blue;
 }
+
+body{
+    background: url("");
+}
+
+
 
 .group{
     margin: 12px 0;
