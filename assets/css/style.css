@@ -54,7 +54,7 @@ header{
 }
 
 .user .btn{
-    background-color: rgba(93, 170, 221);
+    background-color: rgba(93, 170, 221,0.3);
     width: 35%;
     padding: 6px;
     border-radius: 12px;
@@ -62,7 +62,7 @@ header{
 
 .user .btn:hover{
     width: 40%;
-    background: rgb(24, 82, 109);
+    background: rgba(24, 82, 109,0,4);
     color: white;
     transition: ease-in-out 0,5s;
     cursor: pointer;
