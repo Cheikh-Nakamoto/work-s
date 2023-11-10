@@ -38,8 +38,14 @@ header{
 }
 
 .user input{
-    
+    margin: 12px;
+    border-radius: 12px;
+    width: 75%;
+    height: 30px;
+    outline: none;
 }
+
+.user bu
 
 
 
