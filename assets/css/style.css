@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
+    color: #FFFFFF;
 }
 
 body{
-    background: url("../img/background.png");
+    background: url("../img/back.jpg");
     background-size: cover;
 }
 
@@ -54,6 +54,7 @@ header{
 }
 
 .user .btn{
+    background-color: blue;
     width: 35%;
     padding: 6px;
     border-radius: 12px;
