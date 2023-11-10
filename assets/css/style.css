@@ -34,13 +34,13 @@ header{
 }
 
 .user{
+    display: flex;
+    align-items: center;
     width: 35%;
     border: 1px solid blue;
 }
 .all{
-    position: sticky;
-    top: 40%;
-    border: 1px solid blue;
+  margi
 }
 
 .user input{
