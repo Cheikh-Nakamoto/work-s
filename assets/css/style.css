@@ -1,0 +1,17 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    display: flex;
+}
+
+.group{
+    margin: 12px 0;
+    display: flex;
+    flex-direction: row;
+}
