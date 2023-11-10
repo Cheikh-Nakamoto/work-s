@@ -8,6 +8,10 @@ body{
     /* background: url("../img/back.jpg"); */
 }
 
+.container {
+    padding: 24px;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -22,10 +26,12 @@ header{
 
 .board {
     width: 65%;
+    border: 1px solid blue;
 }
 
 .user{
     width: 35%;
+    border: 1px solid blue;
 }
 
 
