@@ -14,8 +14,9 @@ body{
 
 header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    
     border: 1px solid blue;
     height: 7vh;
     position: sticky;
@@ -46,16 +47,19 @@ header{
 }
 
 .user .btn{
-    width: 20%;
-    padding: 8px;
+    width: 35%;
+    padding: 6px;
     border-radius: 12px;
-    
+}
+
+.user.btn:hover{
+    background: rgb(24, 82, 109);
+    color: white;
 }
 
 
 
 .group{
-    margin: 12px 12px;
     display: flex;
     flex-direction: row;
 }
