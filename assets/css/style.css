@@ -24,6 +24,7 @@ header{
 
 .content{
     display: flex;
+    height: 86vh;
 }
 
 .board {
@@ -46,5 +47,11 @@ header{
 
 
 footer{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    height: 7vh;
+    position: sticky;
+    bottom: 0;
 }
