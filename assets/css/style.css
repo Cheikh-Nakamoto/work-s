@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #FFFFFF;
+
 }
 
 body{
-    background: url("../img/back.jpg");
-    background-size: cover;
+    /* background: url("../img/back.jpg");
+    background-size: cover; */
 }
 
 .container {
@@ -54,7 +54,7 @@ header{
 }
 
 .user .btn{
-    background-color: blue;
+    background-color: rgba(93, 170, 221);
     width: 35%;
     padding: 6px;
     border-radius: 12px;
