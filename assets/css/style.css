@@ -34,13 +34,10 @@ header{
 }
 
 .user{
-    display: block;
-    justify-content:center;
-    align-items: center;
-
     width: 35%;
     border: 1px solid blue;
 }
+.all
 
 .user input{
     margin: 12px 0;
@@ -73,6 +70,7 @@ header{
 
 .group .case {
     color: #FFFFFF;
+    background-color: gray;
 }
 
 .sign {
