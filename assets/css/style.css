@@ -31,8 +31,14 @@ header{
 }
 
 .board {
+    display: flex;
+    align-items: center;
     width: 65%;
     border: 1px solid blue;
+}
+
+.mark{
+    width: 100%;
 }
 
 .user{
@@ -67,7 +73,6 @@ header{
     transition: ease-in-out 0,5s;
     cursor: pointer;
 }
-
 
 
 .group{
