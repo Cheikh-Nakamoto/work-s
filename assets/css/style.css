@@ -77,13 +77,15 @@ header{
 
 .group{
     display: flex;
+    align-items: center;
     flex-direction: row;
 }
 
 .group .case {
     color: #FFFFFF;
     background-color: gray;
-    width: 24px;
+    width: 50px;
+    padding: 2px ;
 }
 
 .sign {
