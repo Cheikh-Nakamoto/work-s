@@ -7,7 +7,9 @@
 header{
     display: flex;
     justify-content: center;
+    align-items: center;
     border: 1px solid blue;
+    height: 7vh;
 }
 
 header .group:last-child {
@@ -16,6 +18,12 @@ header .group:last-child {
 
 body{
     /* background: url("../img/back.jpg"); */
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
 }
 
 
