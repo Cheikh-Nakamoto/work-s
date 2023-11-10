@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    /* background: url("../img/back.jpg"); */
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -12,18 +16,16 @@ header{
     height: 7vh;
 }
 
-header .group:last-child {
-    text-align: right;
-}
-
-body{
-    /* background: url("../img/back.jpg"); */
-}
-
 .content{
     display: flex;
-    flex-direction: column;
-    justify-content: justify;
+}
+
+.board {
+    width: 65%;
+}
+
+.user{
+    width: 35%;
 }
 
 
