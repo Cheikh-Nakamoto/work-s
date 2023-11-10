@@ -52,11 +52,12 @@ header{
     border-radius: 12px;
 }
 
-.user.btn:hover{
+.user .btn:hover{
     width: 40%;
     background: rgb(24, 82, 109);
     color: white;
-    transition: ease-in-out 03s;
+    transition: ease-in-out 0,5s;
+    cursor: pointer;
 }
 
 
@@ -67,7 +68,7 @@ header{
 }
 
 .group .case {
-    /*  */
+    
 }
 
 
