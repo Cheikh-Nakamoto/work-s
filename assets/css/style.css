@@ -37,7 +37,9 @@ header{
     width: 35%;
     border: 1px solid blue;
 }
-.all
+.all{
+    margin-top: 50%;
+}
 
 .user input{
     margin: 12px 0;
