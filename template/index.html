@@ -3,27 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="shortcut icon" href="/assets/img/favi.png" type="image/x-icon">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="shortcut icon" href="../assets/img/favi.png" type="image/x-icon">
         <title>Calcul Rapid</title>
     </head>
-    <body>
-
-        <!-- Conteneur principal -->
+    <body >
+         <!-- Conteneur principal -->
         <div class="container">
             <!-- Structure de la page du jeu -->
             <header>
                 <div class="group">
                     <span>Time: </span>
-                    <span class="case">0</span>
+                    <span id="case">0:00</span>
                 </div>
                 <div class="group">
                     <span>Score: </span>
-                    <span class="case">0</span>
+                    <span id="score">0</span>
                 </div>
                 <div class="group">
                     <span>Level: </span>
-                    <span class="case">1</span>
+                    <span id="level">1</span>
                 </div>
             </header>
 
@@ -35,31 +34,31 @@
                     <div class="all">
                         <div class="signs">
                             <span>Le signe est : </span>
-                            <span class="sign">(+)</span>
+                            <span id="sign">(+)</span>
                         </div>
-    
+
                         <!-- Input Number -->
                         <input type="number" min="0" required id="result">
-                        <button class="btn">Valid</button>
-    
+                        <button  class="btn">Valid</button>
+
                         <!-- Check Value -->
-                        <div class="check">
-                            <span class="wrong">Le résultat est faux</span>
-                            <span class="correct">Le résultat est vrai</span>
+                        <div id="check">
+                           
                         </div>
-    
+
                         <!-- Result -->
                         <div class="resultat">
+
                         </div>
                     </div>
                 </div>
 
                 <!-- Board -->
                 <div class="board">
-                   <div class="mark">
-                    <marquee behavior="scroll" width="100%" direction="left" scrollamount="10">10</marquee>
-                    <marquee behavior="scroll" direction="right" scrollamount="10">10</marquee>
-                   </div>
+                <div class="mark">
+                    <marquee id="nbr1" behavior="scroll" width="100%" direction="left" scrollamount="10"></marquee>
+                    <marquee id="nbr2" behavior="scroll" direction="right" scrollamount="10"></marquee>
+                </div>
                 </div>
             </div>
 
@@ -68,6 +67,8 @@
                 &copy; <span class="year">1995</span> - Zone01 Dakar
             </footer>
         </div>
+
+        <script src="/assets/js/script.js"></script>
     </body>
 
 </html>
